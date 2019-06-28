@@ -251,6 +251,19 @@ section#pro div.opt div.item-p:hover div.title {
 
 
 @media (max-width: 768px) {
+    .navbar {
+        padding:0 2%;
+    }
+    .btn-page {
+        background:#604FF8;
+        box-shadow: 0 .125rem .25rem rgba(0,0,0,.075);
+        border-radius: 50px;
+        color: #ffffff;
+        height: 60px;
+        padding: 15px 50px;
+        font-weight: 500;
+        width: 100%;
+    }
     section#info div.title {
         margin-top: 20px;
         text-align: center;
@@ -302,3 +315,5 @@ section#pro div.opt div.item-p:hover div.title {
         width: 100%;
     }
  }
+
+ 
