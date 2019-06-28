@@ -255,10 +255,16 @@ section#pro div.opt div.item-p:hover div.title {
         margin-top: 20px;
         text-align: center;
     }
+    section#info div.title p {
+        padding: 0 !important;
+    }
     section#info div.title h1 {
         font-size: 1.5rem;
     }
-    section#info div.title .btn-info {
+    section#info div.title .item-btn {
+        padding: 0 !important;
+    }
+    section#info div.title .item-btn .btn-info {
         width: 100%;
     }
     section#info div:last-child div.img {
@@ -269,7 +275,6 @@ section#pro div.opt div.item-p:hover div.title {
     }
     section#services div.row div.rounded-circle {
         width: 50%;
-        margin-right: 5%;
     }
     section#ent div.img-resp {
         display: none;
